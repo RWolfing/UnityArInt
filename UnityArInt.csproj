@@ -234,6 +234,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Custom\Configuration.cs" />
     <Compile Include="Assets\Custom\SupportBackScript.cs" />
     <Compile Include="Assets\GoogleARCore\HelloARExample\Scripts\HelloARController.cs" />
     <Compile Include="Assets\GoogleARCore\HelloARExample\Scripts\PlaneAttachment.cs" />
@@ -286,12 +287,36 @@
     <Compile Include="Assets\GoogleARCore\SDK\Scripts\Utility\MarshalingHelper.cs" />
     <Compile Include="Assets\GoogleARCore\SDK\Scripts\Utility\ProvidedSingleton.cs" />
     <Compile Include="Assets\GoogleARCore\SDK\Scripts\Utility\SingletonComponentProvider.cs" />
+    <Compile Include="Assets\RainMaker\Demo\DemoScript.cs" />
+    <Compile Include="Assets\RainMaker\Demo\DemoScript2D.cs" />
+    <Compile Include="Assets\RainMaker\Demo\DemoScriptStartRainOnSpaceBar.cs" />
+    <Compile Include="Assets\RainMaker\Prefab\BaseRainScript.cs" />
+    <Compile Include="Assets\RainMaker\Prefab\RainCollision.cs" />
+    <Compile Include="Assets\RainMaker\Prefab\RainScript.cs" />
+    <Compile Include="Assets\RainMaker\Prefab\RainScript2D.cs" />
+    <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\DocuScript.cs" />
+    <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\TimeOfDay\ToD_Base.cs" />
+    <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\TimeOfDay\ToD_Clock.cs" />
+    <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\TimeOfDay\ToD_Debug.cs" />
+    <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\WeatherSystem\Weather_Base.cs" />
+    <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\WeatherSystem\Weather_Cloudy.cs" />
+    <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\WeatherSystem\Weather_Controller.cs" />
+    <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\WeatherSystem\Weather_Debug.cs" />
+    <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\WeatherSystem\Weather_Rain.cs" />
+    <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\WeatherSystem\Weather_Snow.cs" />
+    <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\WeatherSystem\Weather_SoundFade.cs" />
+    <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\WeatherSystem\Weather_Sun.cs" />
+    <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\WeatherSystem\Weather_Thunderstorm.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\GoogleARCore\HelloARExample\Materials\Shaders\MobileDiffuseWithLightEstimation.shader" />
     <None Include="Assets\GoogleARCore\HelloARExample\Materials\Shaders\MobileSpecularWithLightEstimation.shader" />
     <None Include="Assets\GoogleARCore\HelloARExample\Materials\Shaders\PlaneGrid.shader" />
     <None Include="Assets\GoogleARCore\HelloARExample\Materials\Shaders\PointCloud.shader" />
+    <None Include="Assets\RainMaker\Prefab\RainShader.shader" />
+    <None Include="Assets\RainMaker\Readme.txt" />
+    <None Include="Assets\TimeOfDay&amp;WeatherSystem\Documents\ContactInformation.txt" />
+    <None Include="Assets\TimeOfDay&amp;WeatherSystem\Documents\VersionInformation.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
