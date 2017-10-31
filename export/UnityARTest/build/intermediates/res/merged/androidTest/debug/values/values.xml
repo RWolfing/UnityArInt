@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="shared_libraries">
+        <item>tango_unity_3dr_shim_api</item>
+    </string-array>
+    <string name="app_name">UnityARTest</string>
+    <style name="UnityThemeSelector" parent="android:Theme.Light.NoTitleBar.Fullscreen">
+</style>
+    <style name="UnityThemeSelector.Translucent" parent="@style/UnityThemeSelector">
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowBackground">@android:color/transparent</item>
+</style>
+</resources>
